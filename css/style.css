@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: hsl(36, 100%, 90%);
+    padding: 0;
+}
+.content {
+    display: flex;
+    min-height: 95vh;
+}
+nav {
+    flex: 20%;
+    background-color:hsl(36, 70%, 80%);
+}
+nav ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+nav ul li {
+    display: block;
+    font-size: 2em;
+    padding: 20px 0 20px 20px;
+}
+nav li:hover {
+    background-color: burlywood;
+}
+nav .active, nav .active:hover  {
+    background-color: hsl(36, 70%, 50%);
+}
+nav a {
+    text-decoration: none;
+}
+nav a, nav a:visited {
+    color: black;
+}
+main {
+    flex: 80%;
+    padding: 0 0 0 20px;
+}
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+h2 {
+    margin: 10px 0;
+}
+h3 {
+    margin: 5px 0;
+}
+p, ol li, ul li {
+    font-size: 1.2em;
+}
+p {
+    margin: 5px 5px;
+}
+ol li {
+    max-width: 90%;
+    margin: 10px 0;
+}
+a {
+    color:hsl(50, 60%, 40%);
+}
+a:visited {
+    color:hsl(36, 20%, 70%)
+}
